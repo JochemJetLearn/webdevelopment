@@ -1,0 +1,14 @@
+img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+img:hover {
+    border: 5px dotted #28383f;
+    transform: scale(1.5,1.5);
+}
+
+body {
+    text-align: center;
+}
