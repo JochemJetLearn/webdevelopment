@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-color: #2f4f4f;
+}
+
+.gallery img{
+    height: 200px;
+    width: 150px;
+    opacity: 0.2;
+}
+
+.gallery img:hover{
+    opacity: 1;
+}
