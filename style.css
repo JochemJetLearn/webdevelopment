@@ -26,6 +26,20 @@ h3 {
     font-size: 30px;
 }
 
+.project {
+    background-color: #7daeba;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.project:hover {
+    background-color: #6c99a4;
+    border: 5px solid #2e3947;
+}
+
 iframe {
-    width: 60%;
+    width: 65%;
+    height: 650px;
+    background-color: #f0f8ff;
 }
