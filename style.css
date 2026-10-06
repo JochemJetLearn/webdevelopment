@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+ul {
+    background: #acf0ff;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding: 30px;
+    font-size: 30px;
+}
+
+header {
+    text-align: center;
+    background-color: #7daeba;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+iframe {
+    width: 60%;
+}
