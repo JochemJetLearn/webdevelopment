@@ -1,0 +1,59 @@
+ul {
+    background: #ffa0a0;
+    list-style: none;
+}
+
+.biglistitem {
+    display: inline;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.smalllistitem {
+    display: inline;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.banner {
+    background-image: url("assets/dvdcoverpageimage.png");
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.inner_banner {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #f0f8ff;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.headtext {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.mediaItem {
+    background-color: #deb887;
+    margin-top: 50px;
+}
+
+.mediaItem:hover {
+    background-color: #de9087;
+}
+
+section {
+    margin-top: 50px;
+}
