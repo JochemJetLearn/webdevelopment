@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background-image: radial-gradient(red, yellow, white);
+}
+
+iframe {
+    width: 800px;
+    height: 500px;
+}

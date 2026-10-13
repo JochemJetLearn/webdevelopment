@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+div {
+    width: 99%;
+    height: 800px;
+    margin-top: 50px;
+    border: 5px solid black;
+}
+
+.gradient1 {
+    background-image: linear-gradient(135deg, #5d215d, #2d2d53, #772e2e, #2c502c);
+}
+
+.gradient2 {
+    background-image: repeating-linear-gradient(yellow, #ff7300, #63ff63 10%);
+}
+
+.gradient3 {
+    background-image: radial-gradient(circle, red, yellow, white);
+}
+
+.gradient4 {
+    background-image: repeating-radial-gradient(#270054, #c101bd 10%, #ff8d8d 20%);
+}
+
+.gradient5 {
+    background-image: conic-gradient(#ff0077, #b000d7, #7f2aff, #007bff);
+    border-radius: 50%;
+}
+
+.gradient6 {
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+}
