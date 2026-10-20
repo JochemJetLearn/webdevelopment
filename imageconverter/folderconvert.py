@@ -20,7 +20,7 @@ for i in images:
     old_images.append(f"imageresizer/trashimages/{i}")
 
 print(f"Please check {folder} too make sure that all images are correctly converted.")
-for i in old_images:
-    if input("would you like to delete the old image files? (type confirm) ").lower() == "confirm":
+if input("would you like to delete the old image files? (type confirm) ").lower() == "confirm":
+    for i in old_images:
         print(f"Deleting {i}")
         os.remove(i)
