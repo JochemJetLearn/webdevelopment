@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <title>Quiz</title>
+    </head>
+    <body>
+        <header><h1>Quiz</h1></header>
+        <div id="score-container">
+            <p>Your score: 
+                <span id="score">0</span>
+            </p>
+        </div>
+        <div class="question" id="Q1">
+            <h2>What is the closest planet to the sun</h2>
+            <button onclick="incorrect('Q1')">A: Venus</button>
+            <button onclick="incorrect('Q1')">B: Earth</button>
+            <button onclick="correct('Q1')">C: Mercury</button>
+            <button onclick="incorrect('Q1')">D: Mars</button>
+        </div>
+        <div class="question" id="Q2">
+            <h2>What is the largest planet</h2>
+            <button onclick="incorrect('Q2')">A: Neptune</button>
+            <button onclick="correct('Q2')">B: Jupiter</button>
+            <button onclick="incorrect('Q2')">C: Earth</button>
+            <button onclick="incorrect('Q2')">D: Saturn</button>
+        </div>
+        <div class="question" id="Q3">
+            <h2>What is the name of the galaxy we are in</h2>
+            <button onclick="incorrect('Q3')">A: Andromeda</button>
+            <button onclick="incorrect('Q3')">B: "Sumsung galaxy 5"</button>
+            <button onclick="incorrect('Q3')">C: Triangulum</button>
+            <button onclick="correct('Q3')">D: The Milky Way</button>
+        </div>
+        <div class="question" id="Q4">
+            <h2>How far away is the closest galaxy from us</h2>
+            <button onclick="correct('Q4')">A: 2.500.000 light-years</button>
+            <button onclick="incorrect('Q4')">B: 2.500.000 kilometers</button>
+            <button onclick="incorrect('Q4')">C: 2.500 kpc</button>
+            <button onclick="incorrect('Q4')">D: 25 kpc</button>
+        </div>
+        <script src="./script.js" type="text/javascript"></script>
+    </body>
+</html>
