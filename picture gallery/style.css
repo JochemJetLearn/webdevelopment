@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+.galleryPicture {
+    height: 300px;
+    border-radius: 30%;
+}
+
+div {
+    background-color: black;
+    margin-top: 50px;
+}
+
+#bigScreen {
+    height: 700px;
+    border: 20px solid black;
+    display: none;
+}
